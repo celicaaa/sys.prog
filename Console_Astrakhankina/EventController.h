@@ -7,6 +7,7 @@ private:
     HANDLE hStopEvent;
     HANDLE hConfirmEvent;
     HANDLE hCloseEvent;
+    HANDLE hMessageEvent;  // New event for message from dialog
 
 public:
     EventController();
@@ -16,4 +17,7 @@ public:
     void WaitForCommand(int& commandIndex);
     void SendConfirmation();
     void Cleanup();
+    
+    // Signal that a message is ready to be received via MMF
+    void SignalMessageReady();
 };

@@ -21,9 +21,16 @@ void Session::addMessage(MessageTypes messageType, const wstring& data) {
     addMessage(m);
 }
 
-void Session::getMessage(Message& m) {
+bool Session::getMessage(Message& m, DWORD timeout) {
     unique_lock<mutex> ul(mx);
-    ev.wait(ul, [this] { return !messages.empty(); });
+    if (!ev.wait_for(ul, chrono::milliseconds(timeout), [this] { return !messages.empty(); })) {
+        return false;
+    }
     m = messages.front();
     messages.pop();
+    return true;
+}
+
+bool Session::hasMessages() const {
+    return !messages.empty();
 }
