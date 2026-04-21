@@ -1,0 +1,62 @@
+```
+# Build artifacts and binaries
+*.obj
+*.exe
+*.dll
+*.lib
+*.pdb
+*.ilk
+*.exp
+*.iobj
+*.ipdb
+*.tlog
+*.lastbuildstate
+*.vcxproj.user
+*_i.c
+*_p.c
+*.tlb
+*.tlh
+*.tmp
+*.log
+
+# Visual Studio files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.vcxproj.filters
+
+# Debug and Release folders
+Debug/
+Release/
+x64/
+x86/
+build/
+dist/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.cache
+*.autosave
+
+# Environment variables
+.env
+.env.local
+*.env.*
+
+# IDE specific
+.vs/
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+Icon?
+```

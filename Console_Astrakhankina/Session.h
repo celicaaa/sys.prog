@@ -19,5 +19,6 @@ public:
 
     void addMessage(Message& m);
     void addMessage(MessageTypes messageType, const wstring& data = L"");
-    void getMessage(Message& m);
+    bool getMessage(Message& m, DWORD timeout = INFINITE);
+    bool hasMessages() const;
 };

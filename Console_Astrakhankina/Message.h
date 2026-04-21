@@ -3,7 +3,15 @@
 #include <queue>
 #include <mutex>
 #include <condition_variable>
+#include <windows.h>
 using namespace std;
+
+// MMF Header structure (shared with DLL)
+struct MMFHeader {
+    int addr;       // Target address (-1 = all threads, 0 = main thread, >0 = thread ID)
+    int cmdType;    // Command type (0 = close, 1 = data)
+    int size;       // Data size in bytes
+};
 
 struct Message;
 

@@ -17,4 +17,5 @@ public:
     bool HasThreads() const;
     void Cleanup();
     void SendToThread(int threadId, MessageTypes type, const wstring& data = L"");
+    void BroadcastMessage(MessageTypes type, const wstring& data = L"");
 };

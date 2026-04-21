@@ -86,9 +86,38 @@
             lblList.TabIndex = 3;
             lblList.Text = "Активные потоки:";
 
+            // Add message label
+            lblMessage.AutoSize = true;
+            lblMessage.Location = new Point(23, 220);
+            lblMessage.Name = "lblMessage";
+            lblMessage.Size = new Size(150, 20);
+            lblMessage.TabIndex = 6;
+            lblMessage.Text = "Текст сообщения:";
+
+            // Add message textbox
+            txtMessage.Location = new Point(23, 250);
+            txtMessage.Name = "txtMessage";
+            txtMessage.Size = new Size(502, 80);
+            txtMessage.Multiline = true;
+            txtMessage.TabIndex = 7;
+
+            // Add send button
+            btnSend.BackColor = Color.LightBlue;
+            btnSend.Enabled = false;
+            btnSend.FlatStyle = FlatStyle.Flat;
+            btnSend.Location = new Point(23, 340);
+            btnSend.Name = "btnSend";
+            btnSend.Size = new Size(160, 47);
+            btnSend.TabIndex = 8;
+            btnSend.Text = "Send";
+            btnSend.UseVisualStyleBackColor = false;
+
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(549, 568);
+            Controls.Add(lblMessage);
+            Controls.Add(txtMessage);
+            Controls.Add(btnSend);
             Controls.Add(lblStatus);
             Controls.Add(cbThreadList);
             Controls.Add(lblList);
@@ -112,5 +141,8 @@
         private System.Windows.Forms.Button btnStop;
         private System.Windows.Forms.Label lblCount;
         private System.Windows.Forms.Label lblList;
+        private System.Windows.Forms.TextBox txtMessage;
+        private System.Windows.Forms.Button btnSend;
+        private System.Windows.Forms.Label lblMessage;
     }
 }
