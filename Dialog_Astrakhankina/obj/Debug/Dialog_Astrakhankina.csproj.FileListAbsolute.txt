@@ -1,0 +1,16 @@
+C:\Users\алена\Documents\moshub\sysprog.26.labs\lab1\АС-23-05\01 Астраханкина\x64\Debug\Dialog_Astrakhankina.exe
+C:\Users\алена\Documents\moshub\sysprog.26.labs\lab1\АС-23-05\01 Астраханкина\x64\Debug\Dialog_Astrakhankina.deps.json
+C:\Users\алена\Documents\moshub\sysprog.26.labs\lab1\АС-23-05\01 Астраханкина\x64\Debug\Dialog_Astrakhankina.runtimeconfig.json
+C:\Users\алена\Documents\moshub\sysprog.26.labs\lab1\АС-23-05\01 Астраханкина\x64\Debug\Dialog_Astrakhankina.dll
+C:\Users\алена\Documents\moshub\sysprog.26.labs\lab1\АС-23-05\01 Астраханкина\x64\Debug\Dialog_Astrakhankina.pdb
+C:\Users\алена\Documents\moshub\sysprog.26.labs\lab1\АС-23-05\01 Астраханкина\Dialog_Astrakhankina\obj\Debug\Dialog_Astrakhankina.Form1.resources
+C:\Users\алена\Documents\moshub\sysprog.26.labs\lab1\АС-23-05\01 Астраханкина\Dialog_Astrakhankina\obj\Debug\Dialog_Astrakhankina.csproj.GenerateResource.cache
+C:\Users\алена\Documents\moshub\sysprog.26.labs\lab1\АС-23-05\01 Астраханкина\Dialog_Astrakhankina\obj\Debug\Dialog_Astrakhankina.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\алена\Documents\moshub\sysprog.26.labs\lab1\АС-23-05\01 Астраханкина\Dialog_Astrakhankina\obj\Debug\Dialog_Astrakhankina.AssemblyInfoInputs.cache
+C:\Users\алена\Documents\moshub\sysprog.26.labs\lab1\АС-23-05\01 Астраханкина\Dialog_Astrakhankina\obj\Debug\Dialog_Astrakhankina.AssemblyInfo.cs
+C:\Users\алена\Documents\moshub\sysprog.26.labs\lab1\АС-23-05\01 Астраханкина\Dialog_Astrakhankina\obj\Debug\Dialog_Astrakhankina.csproj.CoreCompileInputs.cache
+C:\Users\алена\Documents\moshub\sysprog.26.labs\lab1\АС-23-05\01 Астраханкина\Dialog_Astrakhankina\obj\Debug\Dialog_Astrakhankina.dll
+C:\Users\алена\Documents\moshub\sysprog.26.labs\lab1\АС-23-05\01 Астраханкина\Dialog_Astrakhankina\obj\Debug\refint\Dialog_Astrakhankina.dll
+C:\Users\алена\Documents\moshub\sysprog.26.labs\lab1\АС-23-05\01 Астраханкина\Dialog_Astrakhankina\obj\Debug\Dialog_Astrakhankina.pdb
+C:\Users\алена\Documents\moshub\sysprog.26.labs\lab1\АС-23-05\01 Астраханкина\Dialog_Astrakhankina\obj\Debug\Dialog_Astrakhankina.genruntimeconfig.cache
+C:\Users\алена\Documents\moshub\sysprog.26.labs\lab1\АС-23-05\01 Астраханкина\Dialog_Astrakhankina\obj\Debug\ref\Dialog_Astrakhankina.dll
