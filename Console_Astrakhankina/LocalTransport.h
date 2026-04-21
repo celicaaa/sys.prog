@@ -29,6 +29,8 @@ private:
     static void* transport;
     static bool dllLoaded;
     
+    friend class ThreadManager;  // Allow ThreadManager to access private members
+    
     static bool LoadDll();
     static void UnloadDll();
 
